@@ -9,6 +9,9 @@
       "cflags_cc": [
         "-fexceptions"
       ],
+      "defines": [
+        "_HAS_EXCEPTIONS=1"
+      ],
       "conditions": [
         [
           "OS==\"mac\"", {
