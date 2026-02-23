@@ -3,13 +3,9 @@
     {
       'target_name': 'platformFolders',
       'sources': [ 'src/binding.cc', 'src/platform_folders.cpp' ],
-      "cflags!" : [
-        "-fno-exceptions"
-      ],
       "cflags_cc!": [
         "-fno-rtti"
       ],
-
       "conditions": [
         [
           "OS==\"mac\"", {
