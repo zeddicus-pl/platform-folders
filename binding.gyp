@@ -12,6 +12,11 @@
       "defines": [
         "_HAS_EXCEPTIONS=1"
       ],
+      "msvs_settings": {
+        "VCCLCompilerTool": {
+          "ExceptionHandling": 1
+        }
+      },
       "conditions": [
         [
           "OS==\"mac\"", {
