@@ -3,8 +3,12 @@
     {
       'target_name': 'platformFolders',
       'sources': [ 'src/binding.cc', 'src/platform_folders.cpp' ],
+      "cflags!" : [
+        "-fexceptions"
+      ],
       "cflags_cc!": [
-        "-fno-rtti"
+        "-fno-rtti",
+        "-fexceptions"
       ],
       "conditions": [
         [
