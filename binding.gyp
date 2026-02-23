@@ -7,8 +7,7 @@
         "-fno-exceptions"
       ],
       "cflags_cc!": [
-        "-fno-rtti",
-        "-fno-exceptions"
+        "-fno-rtti"
       ],
 
       "conditions": [
@@ -22,8 +21,7 @@
                 "-mmacosx-version-min=10.7",
                 "-std=c++11",
                 "-stdlib=libc++",
-                "-framework CoreServices",
-                "-fexceptions"
+                "-framework CoreServices"
               ],
               'OTHER_LDFLAGS': [
                   '-framework CoreServices'
