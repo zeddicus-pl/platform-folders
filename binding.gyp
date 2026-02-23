@@ -22,7 +22,8 @@
                 "-mmacosx-version-min=10.7",
                 "-std=c++11",
                 "-stdlib=libc++",
-                "-framework CoreServices"
+                "-framework CoreServices",
+                "-fexceptions"
               ],
               'OTHER_LDFLAGS': [
                   '-framework CoreServices'
